@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Información - Ministerio de Seguridad de Mendoza</title>
+    <title>Portal de Información - Ministerio de Seguridad y Justicia de Mendoza</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f6f9; color: #333; }
-        .hero { background: linear-gradient(135deg, #1b365d 0%, #0056b3 100%); color: white; padding: 3rem 1rem; border-radius: 0 0 15px 15px; }
-        .card-custom { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.2s; }
-        .card-custom:hover { transform: translateY(-4px); }
+        body { background-color: #f4f6f9; color: #2c3e50; }
+        .hero { background-color: #1b365d; color: white; padding: 2.5rem 1rem; border-bottom: 4px solid #c9a227; }
+        .card-custom { border: 1px solid #e3e8ee; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+        .section-title { color: #1b365d; font-weight: 600; }
+        .card-title { color: #1b365d; font-weight: 600; }
         .btn-maps { background-color: #4285F4; color: white; }
         .btn-maps:hover { background-color: #2c68c4; color: white; }
         .btn-wsp { background-color: #25D366; color: white; font-weight: bold; }
         .btn-wsp:hover { background-color: #1eb857; color: white; }
+        footer { background-color: #1b365d; color: #cbd5e1; }
+        footer a { color: #cbd5e1; }
     </style>
 </head>
 <body>
@@ -22,8 +25,8 @@
     <!-- Encabezado -->
     <header class="hero text-center mb-5">
         <div class="container">
-            <h1 class="display-5 fw-bold">Ministerio de Seguridad de Mendoza</h1>
-            <p class="lead">Portal Informativo Institucional</p>
+            <h1 class="display-6 fw-semibold mb-2">Ministerio de Seguridad y Justicia de Mendoza</h1>
+            <p class="lead mb-0 text-white-50">Portal Informativo Institucional</p>
         </div>
     </header>
 
@@ -33,9 +36,9 @@
         <section class="row mb-4">
             <div class="col-12">
                 <div class="card card-custom p-4">
-                    <h3 class="text-primary mb-3">Sobre este Portal</h3>
-                    <p class="fs-5">
-                        Bienvenido al portal de consulta institucuional. Este espacio está diseñado para brindar orientación e información sobre los servicios técnicos y tecnológicos orientados a la seguridad pública en la provincia de Mendoza.
+                    <h3 class="section-title mb-3 fs-4">Sobre este Portal</h3>
+                    <p class="fs-6 mb-0">
+                        Bienvenido al portal de consulta institucional. Este espacio está diseñado para brindar orientación e información sobre los servicios técnicos y tecnológicos orientados a la seguridad pública en la provincia de Mendoza.
                     </p>
                 </div>
             </div>
@@ -44,30 +47,30 @@
         <!-- Subsecretaría y Departamento de Comunicaciones -->
         <section class="row mb-4">
             <div class="col-12">
-                <div class="card card-custom p-4 border-start border-4 border-primary">
-                    <h4 class="text-secondary mb-1">Subsecretaría de Tecnología Aplicada a la Seguridad</h4>
-                    <h2 class="mb-3">Departamento de Comunicaciones</h2>
-                    <p>
+                <div class="card card-custom p-4">
+                    <h4 class="text-secondary mb-1 fs-5 fw-semibold">Subsecretaría de Tecnología Aplicada a la Seguridad</h4>
+                    <h2 class="section-title mb-3 fs-3">Departamento de Comunicaciones</h2>
+                    <p class="fs-6">
                         El Departamento de Comunicaciones gestiona, supervisa y mantiene la infraestructura tecnológica y las redes operativas de comunicación que respaldan la labor de las fuerzas de seguridad en todo el territorio provincial.
                     </p>
                     <hr>
-                    <h5 class="fw-bold mb-3">Consultas atendidas en este departamento:</h5>
+                    <h5 class="fw-semibold mb-3 text-dark">Consultas atendidas en este departamento:</h5>
                     <div class="row g-3">
                         <div class="col-md-4">
                             <div class="p-3 border rounded bg-light text-center h-100">
-                                <h6 class="fw-bold text-dark">Sistema TETRA</h6>
+                                <h6 class="fw-semibold text-dark">Sistema TETRA</h6>
                                 <small class="text-muted">Red digital de radiocomunicaciones críticas y cobertura operativa.</small>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="p-3 border rounded bg-light text-center h-100">
-                                <h6 class="fw-bold text-dark">Videovigilancia en Móviles</h6>
+                                <h6 class="fw-semibold text-dark">Videovigilancia en Móviles</h6>
                                 <small class="text-muted">Sistemas de cámaras a bordo e integración en patrulleros policiales.</small>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="p-3 border rounded bg-light text-center h-100">
-                                <h6 class="fw-bold text-dark">Bodycams</h6>
+                                <h6 class="fw-semibold text-dark">Bodycams</h6>
                                 <small class="text-muted">Cámaras corporales de grabación para personal en la vía pública.</small>
                             </div>
                         </div>
@@ -82,18 +85,18 @@
             <div class="col-md-6">
                 <div class="card card-custom p-4 h-100 text-center d-flex flex-column justify-content-between">
                     <div>
-                        <h5 class="fw-bold mb-3">Ubicación Punto de DESGRABADO </h5>
+                        <h5 class="card-title mb-3 fs-5">Ubicación Punto de DESGRABADO</h5>
                         <p class="mb-1"><strong>Desgrabado videovigilancia - Ministerio de Seguridad:</strong></p>
-                        <p class="text-muted">Salta 672, Godoy Cruz, Mendoza</p>
-                    </div>
-                    <div>
+                        <p class="text-muted mb-3">Salta 672, Godoy Cruz, Mendoza</p>
                         <video src="/video/PUESTO%20DE%20DESGRABADO.mp4"
                                autoplay
                                loop
                                muted
                                playsinline
-                               class="w-100 rounded mb-3"
+                               class="w-100 rounded"
                                style="max-height: 300px; object-fit: cover;"></video>
+                    </div>
+                    <div class="mt-3">
                         <a href="https://www.google.com/maps/dir/-32.9279943,-68.8524164/-32.928014,-68.8529847/@-32.9272557,-68.8552829,920m/data=!3m2!1e3!4b1!4m6!4m5!1m1!4e1!1m1!4e1!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D" 
                            target="_blank" 
                            class="btn btn-maps btn-lg w-100">
@@ -107,14 +110,14 @@
             <div class="col-md-6">
                 <div class="card card-custom p-4 h-100 text-center d-flex flex-column justify-content-between">
                     <div>
-                        <h5 class="fw-bold mb-3">Contacto Directo</h5>
+                        <h5 class="card-title mb-3 fs-5">Contacto Directo</h5>
                         <p class="text-muted">¿Necesitas orientación técnica o realizar una consulta directamente con nuestro equipo de Comunicaciones?</p>
                     </div>
                     <div>
                         <!-- Botón WhatsApp ocultando el número telefónico -->
                         <a href="https://wa.me/5492616905807?text=Hola!%20necesito%20hacer%20una%20consulta%20al%20depto.%20de%20Comunicaciones" 
                            target="_blank" 
-                           class="btn btn-wsp btn-lg w-100 mt-3">
+                           class="btn btn-wsp btn-lg w-100">
                            Iniciar Chat con Comunicaciones
                         </a>
                     </div>
@@ -124,8 +127,8 @@
 
     </div>
 
-    <footer class="text-center py-3 text-muted border-top">
-        <small>&copy; Ministerio de Seguridad de Mendoza - Subsecretaría de Tecnología Aplicada a la Seguridad</small>
+    <footer class="text-center py-3">
+        <small>&copy; Ministerio de Seguridad y Justicia de Mendoza - Subsecretaría de Tecnología Aplicada a la Seguridad</small>
     </footer>
 
 </body>
